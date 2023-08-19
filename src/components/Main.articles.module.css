@@ -1,0 +1,32 @@
+.articles {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    font-size: 0.98rem;
+    
+}
+
+.items {
+    width: 18rem;
+    height: 15rem;
+    border-radius: 8px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.items a {
+    text-decoration: none;
+    color:inherit;
+}
+
+.itemsImage {
+    object-fit: cover;
+    width: 18rem;
+    height: 10rem;
+    border-radius: 8px;
+}
